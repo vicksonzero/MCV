@@ -1,0 +1,40 @@
+body{
+	overflow:hidden;
+}
+#game{
+	position:absolute;
+	margin: 0 auto;
+	width:10px;
+	height:10px;
+
+}
+
+#main{
+	width:70%;
+	height:100%;
+	float:left;
+	background-color: #EEA;
+}
+#player{
+	width:30%;
+	height:100%;
+	float:left;
+	background-color: #CDD;
+}
+#story{
+	background-color: #FF9;
+	height:60%;
+	overflow:auto;
+}
+#story .line{
+	margin:12px 8px;
+	opacity:0;
+}
+#story .whisper{
+	color:#996;
+	font-style:italic;
+}
+#action{
+	background-color: #AEA;
+	height:40%;
+}
